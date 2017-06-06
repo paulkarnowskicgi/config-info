@@ -2,4 +2,4 @@
 spring:
   profiles: cloud
 
-message: Paul-Mark
+message: 

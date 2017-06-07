@@ -6,5 +6,12 @@ info:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://username:password@service-registry-mwebb.cfapps.io/eureka     
+      defaultZone: http://username:password@service-registry-mwebb.cfapps.io/eureka 
+      
+spring:
+  profiles: cloud
+    eureka:
+      instance:
+        hostname:  
+        nonSecurePort: 80
 

@@ -1,3 +1,4 @@
 ---
-
-message: Paul-Mark
+spring:
+  profiles: cloud
+  message: This is a roster message from the config server!

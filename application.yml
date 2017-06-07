@@ -10,8 +10,8 @@ eureka:
       
 spring:
   profiles: cloud
-    eureka:
-      instance:
-        hostname:  
-        nonSecurePort: 80
-
+    
+eureka:
+  instance:
+    hostname: ${APPLICATION_DOMAIN}
+    nonSecurePort: 80

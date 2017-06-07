@@ -2,4 +2,9 @@
 
 info:
   description: Training configuration repo
+  
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://username:password@service-registry-mwebb.cfapps.io/eureka     
 

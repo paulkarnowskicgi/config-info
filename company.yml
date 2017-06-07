@@ -1,4 +1,4 @@
 ---
 spring:
   profiles: cloud
-
+  message: This is a message from the config server!
